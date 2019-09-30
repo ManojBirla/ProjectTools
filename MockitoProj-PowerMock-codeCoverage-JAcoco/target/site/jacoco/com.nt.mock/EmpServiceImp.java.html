@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>EmpServiceImp.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">MockitoProj</a> &gt; <a href="index.source.html" class="el_package">com.nt.mock</a> &gt; <span class="el_source">EmpServiceImp.java</span></div><h1>EmpServiceImp.java</h1><pre class="source lang-java linenums">package com.nt.mock;
+
+<span class="fc" id="L3">public class EmpServiceImp{</span>
+
+	
+	private EmpDAO dao;
+    public void setDao(EmpDAO dao) {
+<span class="fc" id="L8">		this.dao = dao;</span>
+<span class="fc" id="L9">	}</span>
+	
+	public String getEmailByIdService(int id) {
+<span class="fc" id="L12">		String result=null;</span>
+<span class="fc" id="L13">		result=dao.getEmailById(id);</span>
+		
+<span class="fc" id="L15">		return result;</span>
+	}
+	
+	public String getNameByIdService(int id) {
+<span class="fc" id="L19">		String name=null;</span>
+<span class="fc" id="L20">		name=dao.getEmailById(id);</span>
+		
+<span class="fc" id="L22">		return name;</span>
+	}
+	
+	private boolean isActive(int id) {
+<span class="fc bfc" id="L26" title="All 2 branches covered.">		if(id&gt;100) {</span>
+<span class="fc" id="L27">		return true;</span>
+		}
+		else{
+<span class="fc" id="L30">			return false;</span>
+		}
+	}
+	
+}//class
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

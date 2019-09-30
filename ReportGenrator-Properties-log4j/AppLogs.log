@@ -1,0 +1,20 @@
+29-Sep-2019 02:32:17 IST [main] -5p com.nt.log.StockMarket getAmount -this is debug message ibm 
+29-Sep-2019 02:32:17 IST [main] -5p com.nt.log.StockMarket getAmount -this is info message ibm 
+29-Sep-2019 02:32:17 IST [main] -5p com.nt.log.StockMarket getAmount -this is warn message 
+29-Sep-2019 02:32:17 IST [main] -5p com.nt.log.StockMarket getAmount -this is error message 
+29-Sep-2019 02:32:17 IST [main] -5p com.nt.log.StockMarket getAmount -this is fatal message 
+29-Sep-2019 02:42:48 IST [main] -5p com.nt.log.StockMarket getAmount -this is debug message ibm 
+29-Sep-2019 02:42:48 IST [main] -5p com.nt.log.StockMarket getAmount -this is info message ibm 
+29-Sep-2019 02:42:48 IST [main] -5p com.nt.log.StockMarket getAmount -this is warn message 
+29-Sep-2019 02:42:48 IST [main] -5p com.nt.log.StockMarket getAmount -this is error message 
+29-Sep-2019 02:42:48 IST [main] -5p com.nt.log.StockMarket getAmount -this is fatal message 
+29-Sep-2019 02:43:08 IST [main] -5p com.nt.log.StockMarket getAmount -this is debug message ibm 
+29-Sep-2019 02:43:08 IST [main] -5p com.nt.log.StockMarket getAmount -this is info message ibm 
+29-Sep-2019 02:43:08 IST [main] -5p com.nt.log.StockMarket getAmount -this is warn message 
+29-Sep-2019 02:43:08 IST [main] -5p com.nt.log.StockMarket getAmount -this is error message 
+29-Sep-2019 02:43:08 IST [main] -5p com.nt.log.StockMarket getAmount -this is fatal message 
+29-Sep-2019 05:28:19 IST [main] -5p com.nt.log.StockMarket getAmount -this is debug message ibm 
+29-Sep-2019 05:28:19 IST [main] -5p com.nt.log.StockMarket getAmount -this is info message ibm 
+29-Sep-2019 05:28:19 IST [main] -5p com.nt.log.StockMarket getAmount -this is warn message 
+29-Sep-2019 05:28:19 IST [main] -5p com.nt.log.StockMarket getAmount -this is error message 
+29-Sep-2019 05:28:19 IST [main] -5p com.nt.log.StockMarket getAmount -this is fatal message 
